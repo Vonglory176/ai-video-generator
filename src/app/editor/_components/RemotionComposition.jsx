@@ -19,7 +19,7 @@ const RemotionComposition = ({ frameList }) => {
                         <Sequence key={index} from={fromFrame} durationInFrames={duration}>
 
                             <AbsoluteFill style={{ transform: `translateX(${width/2-50}px) translateY(${height/2-10}px)` }}>
-                                <h2 style={{ color: 'white' }}>{frame.text}</h2>
+                                <h2 style={{ color: 'white', fontSize: `${frame?.fontSize}px` }}>{frame.text}</h2>
                             </AbsoluteFill>
 
                         </Sequence>
