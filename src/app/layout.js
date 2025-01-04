@@ -32,8 +32,9 @@ export default function RootLayout({ children }) {
   );
 }
 
-// Video 2:37:51 --> https://youtu.be/lHFlpc5auDY?t=8631 // 2:24:44
+// Video 2:45:13 --> https://youtu.be/lHFlpc5auDY?t=10464 // 2:24:44
     // Logo: 49:16
+    // "" src passed error at 2:54:24 (Doesn't look like the frameList is saving/updating)(Not loading updated video on refresh?)
 
 // Using 'shadcn/ui' for components. You can add new ones with "npx shadcn@latest add [component]"
 
